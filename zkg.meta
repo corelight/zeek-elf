@@ -1,0 +1,4 @@
+[package]
+script_dir = scripts/Zeek/ELF
+build_command = ./configure --enable-debug --zeek-dist=%(zeek_dist)s && make
+test_command = cd tests && btest

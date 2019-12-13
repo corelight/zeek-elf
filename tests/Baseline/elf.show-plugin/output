@@ -1,0 +1,6 @@
+Zeek::ELF - ELF File Analyzer (dynamic, version)
+    [File Analyzer] ELF (ANALYZER_ELF)
+    [Type] Zeek::ELFHeader
+    [Event] file_elf
+    [Event] file_elf_header
+

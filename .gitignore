@@ -1,0 +1,5 @@
+build
+*.log
+.state
+.idea/
+cmake-build-debug/

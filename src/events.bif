@@ -1,0 +1,14 @@
+## This event is generated each time file analysis identifies
+## an ELF file.
+##
+## f: The file.
+##
+event file_elf%(f: fa_file%);
+
+## This event is generated each time file analysis identifies
+## an ELF file.  This data is raw and the byte order of the data is the endian specified by the field!
+##
+## f: The file.
+## h: The ELF header
+##
+event file_elf_header%(f: fa_file, m: Zeek::ELFHeader%);
