@@ -7,11 +7,16 @@ This package implements:
 
 ## TLDR!
 
-Use your trusty zkg, and you can install like so:
+If you have zkg and you have already run...
 
 ```
-% zkg autoconfig
-% zkg install https://github.com/corelight/zeek-elf
+zkg autoconfig
+```
+
+... then you can install this package as so:
+
+```
+sudo zkg install zeek-elf
 ```
 
 Now in any Zeek script, just load the plugin and it "just works":
