@@ -5,10 +5,10 @@ using namespace file_analysis;
 
 ELF::ELF(RecordVal* args, File* file)
     : file_analysis::Analyzer(file_mgr->GetComponentTag("ELF"), args, file)
-	{
-	conn = new binpac::ELF::MockConnection(this);
-	interp = new binpac::ELF::File(conn);
-	done = false;
+    {
+    conn = new binpac::ELF::MockConnection(this);
+    interp = new binpac::ELF::File(conn);
+    done = false;
 
     if ( file_elf )
         {
@@ -19,29 +19,29 @@ ELF::ELF(RecordVal* args, File* file)
     }
 
 ELF::~ELF()
-	{
-	delete interp;
-	delete conn;
-	}
+    {
+    delete interp;
+    delete conn;
+    }
 
 bool ELF::DeliverStream(const u_char* data, uint64_t len)
-	{
-	if ( conn->is_done() )
-		return false;
+    {
+    if ( conn->is_done() )
+        return false;
 
-	try
-		{
-		interp->NewData(data, data + len);
-		}
-	catch ( const binpac::Exception& e )
-		{
-		return false;
-		}
+    try
+        {
+        interp->NewData(data, data + len);
+        }
+    catch ( const binpac::Exception& e )
+        {
+        return false;
+        }
 
-	return ! conn->is_done();
-	}
+    return ! conn->is_done();
+    }
 
 bool ELF::EndOfFile()
-	{
-	return false;
-	}
+    {
+    return false;
+    }
