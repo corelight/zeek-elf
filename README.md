@@ -20,6 +20,8 @@ Now in any Zeek script, just load the plugin and it "just works":
 @load Zeek/ELF
 ```
 
+New events for this plugin are found in [events.bif](src/events.bif).
+
 ## Building and Installing
 
 This plugin can be built with:
