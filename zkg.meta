@@ -1,4 +1,6 @@
 [package]
+description = This package provides some basic analysis for ELF files.
+tags = intel, files, elf
 script_dir = scripts/Zeek/ELF
 build_command = ./configure --enable-debug --zeek-dist=%(zeek_dist)s && make
 test_command = cd tests && btest
