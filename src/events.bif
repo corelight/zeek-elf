@@ -1,12 +1,12 @@
-## This event is generated each time file analysis identifies
-## an ELF file.
+## This event is generated each time ELF file analysis begins for a file.
 ##
 ## f: The file.
 ##
 event file_elf%(f: fa_file%);
 
 ## This event is generated each time file analysis identifies
-## an ELF file.  This data is raw and the byte order of the data is the endian specified by the field!
+## an ELF file.  This data is raw and the byte order of the data is the
+## endian specified by the field!
 ##
 ## f: The file.
 ## h: The ELF header
