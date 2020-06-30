@@ -1,4 +1,4 @@
-#include "ELF.h"
+#include "elf.h"
 #include "file_analysis/Manager.h"
 
 using namespace file_analysis;
