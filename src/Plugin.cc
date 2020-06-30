@@ -1,6 +1,6 @@
 
 #include "Plugin.h"
-#include "elf.h"
+#include "ELF.h"
 
 namespace plugin { namespace Zeek_ELF { Plugin plugin; } }
 

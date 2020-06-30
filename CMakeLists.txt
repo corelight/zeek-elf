@@ -12,7 +12,7 @@ zeek_plugin_pac(
         src/elf-file-headers.pac
         src/elf-file.pac
 )
-zeek_plugin_cc(src/elf.cc src/Plugin.cc)
+zeek_plugin_cc(src/ELF.cc src/Plugin.cc)
 zeek_plugin_bif(src/elf.bif src/types.bif src/events.bif)
 zeek_plugin_dist_files(README.md CHANGES COPYING VERSION)
 zeek_plugin_end()
