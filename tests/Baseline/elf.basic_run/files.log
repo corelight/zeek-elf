@@ -5,42 +5,42 @@
 #unset_field	-
 #path	files
 #open XXXX-XX-XX-XX-XX-XX
-#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
-#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
-XXXXXXXXXX.XXXXXX	F8FTmuw6E8SamTJQl	127.0.0.1	127.0.0.1	CHhAvVGS1DHFjwGM9	HTTP	0	(empty)	application/x-mach-o-executable	-	0.017705	-	F	1244928	1244928	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FyW4Po3nmp7vgWFujk	127.0.0.1	127.0.0.1	ClEkJM2Vm5giqnMf4h	HTTP	0	(empty)	-	-	0.007859	-	F	450568	450568	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FZzJKy1MW7F7QKSQj2	127.0.0.1	127.0.0.1	C4J4Th3PJpwUYZZ6gc	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000020	-	F	39584	39584	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FpxApH17WOVvQrO6nc	127.0.0.1	127.0.0.1	CtPZjS20MLrsMUOJi2	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000028	-	F	35696	35696	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FpIR6r32J8QZvpSKR8	127.0.0.1	127.0.0.1	CUM0KZ3MLUfNB0cl11	HTTP	0	(empty)	application/x-mach-o-executable	-	0.009188	-	F	546768	546768	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FZx4aD0plb1Bgeid5	127.0.0.1	127.0.0.1	CmES5u32sYpV7JYN	HTTP	0	(empty)	application/x-mach-o-executable	-	0.006384	-	F	306240	306240	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FMGE571chyYC3ClAhi	127.0.0.1	127.0.0.1	CP5puj4I8PtEU4qzYg	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000851	-	F	91792	91792	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	F3ALgj4Y4hD1Z6yPo9	127.0.0.1	127.0.0.1	C37jN32gN3y3AZzyf6	HTTP	0	ELF	application/x-executable	-	0.000027	-	F	8088	8088	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FYB7g63SPjf8eIQnF2	127.0.0.1	127.0.0.1	C3eiCBGOLw3VtHfOj	HTTP	0	ELF	application/x-executable	-	0.044493	-	F	2573932	2573932	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FNLgIb2I6mbYMdFPv3	127.0.0.1	127.0.0.1	CwjjYJ2WqgTbAqiHl6	HTTP	0	ELF	application/x-sharedlib	-	0.001765	-	F	173604	173604	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	Fp5VLw4sEFY0ZIIpQ6	127.0.0.1	127.0.0.1	C0LAHyvtKSQHyJxIl	HTTP	0	ELF	application/x-sharedlib	-	0.009696	-	F	733535	733535	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	F5YMyE1i4qCV8EgrS4	127.0.0.1	127.0.0.1	CFLRIC3zaTU1loLGxh	HTTP	0	ELF	application/x-executable	-	0.014386	-	F	847400	847400	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	F8uURo4IABBWNSUAnh	127.0.0.1	127.0.0.1	C9rXSW3KSpTYvPrlI1	HTTP	0	ELF	application/x-executable	-	0.000978	-	F	90808	90808	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FEL2iA97BBfhXImMa	127.0.0.1	127.0.0.1	Ck51lg1bScffFj34Ri	HTTP	0	ELF	application/x-executable	-	0.014827	-	F	926576	926576	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FVezWA1UKjKoTtj1F1	127.0.0.1	127.0.0.1	C9mvWx3ezztgzcexV7	HTTP	0	ELF	application/x-executable	-	0.013047	-	F	903556	903556	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FsbLtf4mJW8McEcfs6	127.0.0.1	127.0.0.1	CNnMIj2QSd84NKf7U3	HTTP	0	ELF	application/x-executable	-	0.010830	-	F	954028	954028	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FAwit94wgcJz1GSIU9	127.0.0.1	127.0.0.1	C7fIlMZDuRiqjpYbb	HTTP	0	ELF	application/x-executable	-	0.010550	-	F	856496	856496	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FkNcRm40xDlgQrAwNc	127.0.0.1	127.0.0.1	CykQaM33ztNt0csB9a	HTTP	0	ELF	application/x-executable	-	0.008135	-	F	693024	693024	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FgRQr94Fe5tqx3Zq2	127.0.0.1	127.0.0.1	CtxTCR2Yer0FR1tIBg	HTTP	0	ELF	application/x-executable	-	0.008786	-	F	770392	770392	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FV2waj3O6vtyMTFLKe	127.0.0.1	127.0.0.1	CpmdRlaUoJLN3uIRa	HTTP	0	ELF	application/x-executable	-	0.020865	-	F	1486344	1486344	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FlybDq4vgbRjPlFRr3	127.0.0.1	127.0.0.1	C1Xkzz2MaGtLrc1Tla	HTTP	0	ELF	application/x-sharedlib	-	0.022064	-	F	1145944	1145944	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FZW5xv4AcsXjwOJaL5	127.0.0.1	127.0.0.1	CqlVyW1YwZ15RhTBc4	HTTP	0	ELF	application/x-sharedlib	-	0.023405	-	F	1134116	1134116	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FPQ9Yo1RMdZ9yLv6l6	127.0.0.1	127.0.0.1	CLNN1k2QMum1aexUK7	HTTP	0	ELF	application/x-executable	-	0.016132	-	F	851464	851464	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	Fv6yOm2bUrqZCCeY6c	127.0.0.1	127.0.0.1	CBA8792iHmnhPLksKa	HTTP	0	ELF	application/x-executable	-	0.016251	-	F	926536	926536	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FqP99VCpAekphIuZj	127.0.0.1	127.0.0.1	CGLPPc35OzDQij1XX8	HTTP	0	ELF	application/x-executable	-	0.011578	-	F	811156	811156	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FX5GWT1Ucj2ZRVVVsa	127.0.0.1	127.0.0.1	CiyBAq1bBLNaTiTAc	HTTP	0	ELF	application/x-sharedlib	-	XXXXXXXXXX.XXXXXX	-	F	9552	9552	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FrRtHi4zHXeRSYivp2	127.0.0.1	127.0.0.1	CFSwNi4CNGxcuffo49	HTTP	0	ELF	application/x-sharedlib	-	0.008120	-	F	563936	563936	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FaBhkA1olKbanSHovc	127.0.0.1	127.0.0.1	Cipfzj1BEnhejw8cGf	HTTP	0	ELF	application/x-executable	-	0.007160	-	F	401436	401436	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	Fza1bQ2kDN0p1cM2Mb	127.0.0.1	127.0.0.1	CV5WJ42jPYbNW9JNWf	HTTP	0	ELF	application/x-executable	-	0.007288	-	F	436765	436765	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	F6v1Yp2gxRg0u0Yp37	127.0.0.1	127.0.0.1	CPhDKt12KQPUVbQz06	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000022	-	F	65040	65040	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FudgLT8lAbormgVV	127.0.0.1	127.0.0.1	CAnFrb2Cvxr5T7quOc	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000056	-	F	59088	59088	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FDUtio1P0RiH8pStVb	127.0.0.1	127.0.0.1	C8rquZ3DjgNW06JGLl	HTTP	0	PE	application/x-dosexec	-	XXXXXXXXXX.XXXXXX	-	F	6656	6656	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FlDZuF4UVCJJywKnc6	127.0.0.1	127.0.0.1	CzrZOtXqhwwndQva3	HTTP	0	PE	application/x-dosexec	-	0.006863	-	F	345088	345088	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	F3uZHa2Xboquf320N8	127.0.0.1	127.0.0.1	CaGCc13FffXe6RkQl9	HTTP	0	PE	application/x-dosexec	-	0.004190	-	F	301568	301568	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	FdyhoM3fJ9dkzTzZll	127.0.0.1	127.0.0.1	CNdne23ox8SQTgPoy3	HTTP	0	PE	application/x-dosexec	-	0.001843	-	F	135197	135197	0	0	F	-	-	-	-	-	-	-
-XXXXXXXXXX.XXXXXX	F4w3SnPAq3ZOosUJi	127.0.0.1	127.0.0.1	CeGt004UBsXLoZSeCg	HTTP	0	PE	application/x-dosexec	-	0.016037	-	F	1160718	1160718	0	0	F	-	-	-	-	-	-	-
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+XXXXXXXXXX.XXXXXX	F8FTmuw6E8SamTJQl	CHhAvVGS1DHFjwGM9	127.0.0.1	57946	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.017705	T	F	1244928	1244928	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FyW4Po3nmp7vgWFujk	ClEkJM2Vm5giqnMf4h	127.0.0.1	57947	127.0.0.1	8080	HTTP	0	(empty)	-	-	0.007859	T	F	450568	450568	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FZzJKy1MW7F7QKSQj2	C4J4Th3PJpwUYZZ6gc	127.0.0.1	57948	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000020	T	F	39584	39584	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FpxApH17WOVvQrO6nc	CtPZjS20MLrsMUOJi2	127.0.0.1	57949	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000028	T	F	35696	35696	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FpIR6r32J8QZvpSKR8	CUM0KZ3MLUfNB0cl11	127.0.0.1	57950	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.009188	T	F	546768	546768	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FZx4aD0plb1Bgeid5	CmES5u32sYpV7JYN	127.0.0.1	57951	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.006384	T	F	306240	306240	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FMGE571chyYC3ClAhi	CP5puj4I8PtEU4qzYg	127.0.0.1	57952	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000851	T	F	91792	91792	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	F3ALgj4Y4hD1Z6yPo9	C37jN32gN3y3AZzyf6	127.0.0.1	57953	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.000027	T	F	8088	8088	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FYB7g63SPjf8eIQnF2	C3eiCBGOLw3VtHfOj	127.0.0.1	57954	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.044493	T	F	2573932	2573932	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FNLgIb2I6mbYMdFPv3	CwjjYJ2WqgTbAqiHl6	127.0.0.1	57955	127.0.0.1	8080	HTTP	0	ELF	application/x-sharedlib	-	0.001765	T	F	173604	173604	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	Fp5VLw4sEFY0ZIIpQ6	C0LAHyvtKSQHyJxIl	127.0.0.1	57956	127.0.0.1	8080	HTTP	0	ELF	application/x-sharedlib	-	0.009696	T	F	733535	733535	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	F5YMyE1i4qCV8EgrS4	CFLRIC3zaTU1loLGxh	127.0.0.1	57957	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.014386	T	F	847400	847400	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	F8uURo4IABBWNSUAnh	C9rXSW3KSpTYvPrlI1	127.0.0.1	57958	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.000978	T	F	90808	90808	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FEL2iA97BBfhXImMa	Ck51lg1bScffFj34Ri	127.0.0.1	57959	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.014827	T	F	926576	926576	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FVezWA1UKjKoTtj1F1	C9mvWx3ezztgzcexV7	127.0.0.1	57960	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.013047	T	F	903556	903556	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FsbLtf4mJW8McEcfs6	CNnMIj2QSd84NKf7U3	127.0.0.1	57961	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.010830	T	F	954028	954028	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FAwit94wgcJz1GSIU9	C7fIlMZDuRiqjpYbb	127.0.0.1	57962	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.010550	T	F	856496	856496	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FkNcRm40xDlgQrAwNc	CykQaM33ztNt0csB9a	127.0.0.1	57963	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.008135	T	F	693024	693024	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FgRQr94Fe5tqx3Zq2	CtxTCR2Yer0FR1tIBg	127.0.0.1	57964	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.008786	T	F	770392	770392	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FV2waj3O6vtyMTFLKe	CpmdRlaUoJLN3uIRa	127.0.0.1	57965	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.020865	T	F	1486344	1486344	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FlybDq4vgbRjPlFRr3	C1Xkzz2MaGtLrc1Tla	127.0.0.1	57966	127.0.0.1	8080	HTTP	0	ELF	application/x-sharedlib	-	0.022064	T	F	1145944	1145944	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FZW5xv4AcsXjwOJaL5	CqlVyW1YwZ15RhTBc4	127.0.0.1	57967	127.0.0.1	8080	HTTP	0	ELF	application/x-sharedlib	-	0.023405	T	F	1134116	1134116	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FPQ9Yo1RMdZ9yLv6l6	CLNN1k2QMum1aexUK7	127.0.0.1	57968	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.016132	T	F	851464	851464	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	Fv6yOm2bUrqZCCeY6c	CBA8792iHmnhPLksKa	127.0.0.1	57969	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.016251	T	F	926536	926536	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FqP99VCpAekphIuZj	CGLPPc35OzDQij1XX8	127.0.0.1	57970	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.011578	T	F	811156	811156	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FX5GWT1Ucj2ZRVVVsa	CiyBAq1bBLNaTiTAc	127.0.0.1	57971	127.0.0.1	8080	HTTP	0	ELF	application/x-sharedlib	-	XXXXXXXXXX.XXXXXX	T	F	9552	9552	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FrRtHi4zHXeRSYivp2	CFSwNi4CNGxcuffo49	127.0.0.1	57972	127.0.0.1	8080	HTTP	0	ELF	application/x-sharedlib	-	0.008120	T	F	563936	563936	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FaBhkA1olKbanSHovc	Cipfzj1BEnhejw8cGf	127.0.0.1	57973	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.007160	T	F	401436	401436	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	Fza1bQ2kDN0p1cM2Mb	CV5WJ42jPYbNW9JNWf	127.0.0.1	57974	127.0.0.1	8080	HTTP	0	ELF	application/x-executable	-	0.007288	T	F	436765	436765	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	F6v1Yp2gxRg0u0Yp37	CPhDKt12KQPUVbQz06	127.0.0.1	57975	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000022	T	F	65040	65040	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FudgLT8lAbormgVV	CAnFrb2Cvxr5T7quOc	127.0.0.1	57976	127.0.0.1	8080	HTTP	0	(empty)	application/x-mach-o-executable	-	0.000056	T	F	59088	59088	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FDUtio1P0RiH8pStVb	C8rquZ3DjgNW06JGLl	127.0.0.1	57977	127.0.0.1	8080	HTTP	0	PE	application/x-dosexec	-	XXXXXXXXXX.XXXXXX	T	F	6656	6656	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FlDZuF4UVCJJywKnc6	CzrZOtXqhwwndQva3	127.0.0.1	57978	127.0.0.1	8080	HTTP	0	PE	application/x-dosexec	-	0.006863	T	F	345088	345088	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	F3uZHa2Xboquf320N8	CaGCc13FffXe6RkQl9	127.0.0.1	57979	127.0.0.1	8080	HTTP	0	PE	application/x-dosexec	-	0.004190	T	F	301568	301568	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	FdyhoM3fJ9dkzTzZll	CNdne23ox8SQTgPoy3	127.0.0.1	57980	127.0.0.1	8080	HTTP	0	PE	application/x-dosexec	-	0.001843	T	F	135197	135197	0	0	F	-	-	-	-	-	-	-
+XXXXXXXXXX.XXXXXX	F4w3SnPAq3ZOosUJi	CeGt004UBsXLoZSeCg	127.0.0.1	57981	127.0.0.1	8080	HTTP	0	PE	application/x-dosexec	-	0.016037	T	F	1160718	1160718	0	0	F	-	-	-	-	-	-	-
 #close XXXX-XX-XX-XX-XX-XX
