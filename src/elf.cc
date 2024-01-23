@@ -1,10 +1,10 @@
 #include "elf.h"
-#include "file_analysis/Manager.h"
+#include <zeek/analyzer/Analyzer.h>
 
 using namespace file_analysis;
 
-ELF::ELF(RecordVal* args, File* file)
-    : file_analysis::Analyzer(file_mgr->GetComponentTag("ELF"), args, file)
+ELF::ELF(zeek::RecordValPtr args, zeek::file_analysis::File* file)
+    : zeek::file_analysis::Analyzer(zeek::file_mgr->GetComponentTag("ELF"), args, file)
     {
     conn = new binpac::ELF::MockConnection(this);
     interp = new binpac::ELF::File(conn);
@@ -12,8 +12,9 @@ ELF::ELF(RecordVal* args, File* file)
 
     if ( file_elf )
         {
-        BifEvent::generate_file_elf((analyzer::Analyzer *) conn->bro_analyzer(),
-                                    conn->bro_analyzer()->GetFile()->GetVal()->Ref());
+        zeek::BifEvent::enqueue_file_elf(
+                dynamic_cast<zeek::analyzer::Analyzer*>(conn->bro_analyzer()),
+                conn->bro_analyzer()->GetFile()->ToVal());
         }
 
     }
